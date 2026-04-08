@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+  <title>My Website</title>
+
+  <!-- Paste Kawach Config object(JS) HERE -->
+<script>
+  window.kawach_cookie_banner_config = {
+  "token": "690m4nwMy8CRnm4aCFEgKoosvI-zBCq1pEraqz7cXP_-ukPEQotbNB-t1jVu2Nzi5r0ItCw4oFTBnMQxG7YO5Q==",
+  "bannerTitle": "We value your privacy",
+  "bannerDescription": "We use cookies to improve your experience.",
+  "privacyUrl": null,
+  "endpoint": "https://in.kawach.ai/api/cookie_consent",
+  "consentExpiryDays": 365,
+  "categories": [
+    "NECESSARY",
+    "ANALYTICS",
+    "MARKETING",
+    "FUNCTIONAL"
+  ],
+  "consentVersion": 1,
+  "customStyle": {
+    "bannerBgColor": "#FFFFFF",
+    "primaryColor": "#155265",
+    "secondaryColor": "#F8F9FA",
+    "textColor": "#212529"
+  }
+};
+</script>
+  <!-- Paste Kawach Banner script(JS) HERE -->
+  <script src="https://kawach-prod-ind-images.s3.ap-south-1.amazonaws.com/cookie_banner/v2.0.0.js"></script>
+</head>
+
 <body>
-    <div id="dsar-form-container"></div>
-    <script src="./script.js"
-        data-token="zGR22f5ugQlxJTlePPPZL3cpwCJjz8PDvp7R7dsGVVV0EpaafyFbEL9bKKRqFs9aXEWB4mRHZR4rIe2qcoMLEQ=="
-        data-settings-id="aa2089f3-f166-4114-b938-42e4ae05b2a9">
-    </script>
+  <!-- Website content -->
+  <div id="kawach_cookie_settings_slot">Cookie Settings</div>
 </body>
 
 </html>
